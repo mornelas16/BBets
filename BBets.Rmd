@@ -101,3 +101,4 @@ After multiple attempts, the number 28.3 was the closest to the wanted mean of 0
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
+This assignment allowed me to discover the manipulation of odds and the trial and error method in order to get the expected result. For example, we adjusted the number of teachers from 40 to 200 in order to achieve an accurate conclusion that satisfies our desired mean number.  This assignment was done without a helper file such as num-cat, num-num, or cat-cat. We were able to mainly look at the mean as well as the standard deviation numbers, in order to establish precise numbers and an accurate conclusion. Lastly, we were able to use the command (savestats) in order to save certain numbers of a certain trial. 
