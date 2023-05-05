@@ -37,7 +37,22 @@ There are 3 questions and there should be at least 3 separate commits, at least 
 The function will be given a class_size by number of students, odds, and Number_of_times brownlow made the bet.  It will give you back how much Brownlows earnings were. We will use it to answer our three questions below. If you can, improve this function by giving default values to some of its inputs. 
 
 # In the class and payoff as described  If you highered 40 brownlow substitute teachers to do the same thing that Brownlow did then.
+
 ## what is their average earnings
+```{r}
+options(digits = 1)
+teacher <- numeric(200)
+for(i in 1:200) {
+teacher[i]=BrLw()
+
+
+
+}
+savestats <- favstats(teacher) 
+```
+
+We can infer that Mr.BrLw is making an average of `r savestats$mean` with a standard deviation of `r savestats$sd`. 
+
 ## the standard deviation and a 95% confidence interval for their earnings?
   
 <!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows winnings (or losings)-->
