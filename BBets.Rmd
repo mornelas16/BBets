@@ -54,7 +54,8 @@ savestats <- favstats(teacher)
 We can infer that Mr.BrLw is making an average of `r savestats$mean` with a standard deviation of `r savestats$sd`. 
 
 ## the standard deviation and a 95% confidence interval for their earnings?
-  
+At a 95% confidence interval, BrLw's earning is `r savestats$mean - 2*savestats$sd` to `r savestats$mean + 2*savestats$sd`
+
 <!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows winnings (or losings)-->
 
 
